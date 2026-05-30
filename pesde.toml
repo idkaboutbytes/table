@@ -1,0 +1,24 @@
+name = "idkaboutbytes/table"
+version = "1.0.3"
+description = "Table package for Roblox."
+license = "MIT"
+authors = ["idkaboutbytes"]
+repository = "https://github.com/idkaboutbytes/table"
+includes = [
+    "pesde.toml",
+    "README.md",
+    "CHANGELOG.md",
+    "default.project.json",
+    "src/**/*.luau",
+]
+
+[target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+[dependencies]
+Loader = { repo = "idkaboutbytes/loader", rev = "v1.2.3" }
+Maid = { repo = "idkaboutbytes/maid", rev = "v1.1.2" }
+DuckTypeUtils = { repo = "idkaboutbytes/ducktypeutils", rev = "v1.0.3" }
+Promise = { repo = "idkaboutbytes/promise", rev = "v2.1.3" }
