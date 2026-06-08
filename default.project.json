@@ -1,0 +1,15 @@
+{
+  "name": "Table",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "Packages": {
+        "$className": "Folder",
+        "Table": {
+          "$path": "src"
+        }
+      }
+    }
+  }
+}

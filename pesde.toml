@@ -1,0 +1,21 @@
+name = "idkaboutbytes/table"
+version = "1.0.1"
+description = "Table package for Roblox."
+license = "MIT"
+authors = ["idkaboutbytes"]
+repository = "https://github.com/idkaboutbytes/table"
+includes = [
+    "pesde.toml",
+    "README.md",
+    "CHANGELOG.md",
+    "default.project.json",
+    "src/**/*.luau",
+]
+
+[target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+[wally_indices]
+default = "https://github.com/UpliftGames/wally-index"
